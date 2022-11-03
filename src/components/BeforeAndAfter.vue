@@ -1,11 +1,40 @@
-<script
-	defer
-	src="https://unpkg.com/img-comparison-slider@7/dist/index.js"></script>
-<link
-	rel="stylesheet"
-	href="https://unpkg.com/img-comparison-slider@7/dist/styles.css" />
+<template>
+	<div class="space-between grid grid-cols-2 gap-x-3 p-10">
+		<ImgComparisonSlider class="rounded-xl shadow-2xl">
+			<!-- eslint-disable -->
+			<img
+				slot="first"
+				style="width: 100%"
+				src="../../resources/mati-po.jpg" />
+			<img
+				slot="second"
+				style="width: 100%"
+				src="../../resources/mati-przed.jpg" />
+			<!-- eslint-enable -->
+		</ImgComparisonSlider>
 
-<img-comparison-slider>
-  <img slot="first" src="before.jpg" />
-  <img slot="second" src="after.jpg" />
-</img-comparison-slider>
+		<ImgComparisonSlider class="rounded-xl shadow-2xl">
+			<!-- eslint-disable -->
+			<img
+				slot="first"
+				style="width: 100%"
+				src="../../resources/igor-po.jpg" />
+			<img
+				slot="second"
+				style="width: 100%"
+				src="../../resources/igor-przed.jpg" />
+			<!-- eslint-enable -->
+		</ImgComparisonSlider>
+	</div>
+</template>
+
+<script>
+	import { ImgComparisonSlider } from "@img-comparison-slider/vue";
+
+	export default {
+		name: "ExampleComponent",
+		components: {
+			ImgComparisonSlider,
+		},
+	};
+</script>

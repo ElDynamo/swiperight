@@ -5,10 +5,7 @@
 				<img
 					class="px-20 py-5"
 					src="../../resources/king.png" />
-				<h1
-					class="container mx-auto p-10 text-4xl font-black text-gold lg:text-6xl">
-					ZDJĘCIA KOMUNIKUJĄCE WYSOKI STATUS
-				</h1>
+				<h2 class="section-header">ZDJĘCIA KOMUNIKUJĄCE WYSOKI STATUS</h2>
 				<div class="w-full">
 					<p class="mx-auto px-48 text-lg">
 						Stworzymy razem zdjęcia które będą komunikowały Twój wysoki status
@@ -37,10 +34,7 @@
 
 		<div class="py-20">
 			<div class="flex flex-col">
-				<h1
-					class="container mx-auto p-10 text-4xl font-black text-gold lg:text-6xl">
-					LUKSUSOWY APARTAMENT
-				</h1>
+				<h1 class="section-header">LUKSUSOWY APARTAMENT</h1>
 				<div class="w-full">
 					<p class="mx-auto px-48 text-lg">
 						Zdjęcia będą robione w plenerze oraz w ekskluzywnym apartamencie w
@@ -58,10 +52,7 @@
 		</div>
 		<div class="py-10">
 			<div class="flex flex-col">
-				<h1
-					class="container mx-auto p-10 text-4xl font-black text-gold lg:text-6xl">
-					TWOJE HOBBY POKAZANE Z NAJLEPSZEJ STRONY
-				</h1>
+				<h2 class="section-header">TWOJE HOBBY POKAZANE Z NAJLEPSZEJ STRONY</h2>
 				<div class="w-full">
 					<p class="mx-auto px-48 py-5 text-xl">
 						Zapomnij o nudnych zdjęciach w studiu!

@@ -1,5 +1,5 @@
 <template>
-	<div class="bg-background">
+	<div class="flex h-screen flex-col justify-between">
 		<Nav />
 		<Hero />
 		<PromoVideo />
@@ -7,13 +7,15 @@
 		<Posing />
 		<PromotionPart1 />
 		<Retouch />
-		<Gallery />
+		<SimpleGallery
+			galleryID="my-test-gallery"
+			:images="images" />
 		<StepAfterStep />
 		<UpcomingPhotoshoots />
 		<ContactForm />
 		<FAQ />
+		<Footer />
 	</div>
-	<Footer />
 </template>
 
 <script setup>
@@ -25,7 +27,7 @@
 		Posing,
 		Retouch,
 		PromotionPart1,
-		Gallery,
+		SimpleGallery,
 		StepAfterStep,
 		UpcomingPhotoshoots,
 		ContactForm,

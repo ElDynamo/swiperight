@@ -4,8 +4,9 @@ import PromoVideo from "./PromoVideo.vue";
 import SwipeRightDescription from "./SwipeRightDescription.vue";
 import Posing from "./Posing.vue";
 import Retouch from "./Retouch.vue";
+import BeforeAndAfter from "./BeforeAndAfter.vue";
 import PromotionPart1 from "./PromotionPart1.vue";
-import Gallery from "./Gallery.vue";
+import SimpleGallery from "./SimpleGallery.vue";
 import StepAfterStep from "./StepAfterStep.vue";
 import UpcomingPhotoshoots from "./UpcomingPhotoshoots.vue";
 import ContactForm from "./ContactForm.vue";
@@ -19,8 +20,9 @@ export {
 	SwipeRightDescription,
 	Posing,
 	Retouch,
+	BeforeAndAfter,
 	PromotionPart1,
-	Gallery,
+	SimpleGallery,
 	StepAfterStep,
 	UpcomingPhotoshoots,
 	ContactForm,

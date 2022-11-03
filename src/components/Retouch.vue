@@ -2,10 +2,7 @@
 	<div>
 		<div class="sm:px-6 mx-auto max-w-screen-xl px-4 py-16 lg:px-8">
 			<div class="flex flex-col">
-				<h2
-					class="container mx-auto p-10 text-4xl font-black text-gold lg:text-6xl">
-					PROFESJONALNY RETUSZ
-				</h2>
+				<h2 class="section-header">PROFESJONALNY RETUSZ</h2>
 
 				<p class="mx-auto px-48 text-lg">
 					Po sesji wspólnie wybierzemy 9 najlepszych zdjęć
@@ -46,12 +43,18 @@
 				class="container mx-auto p-10 text-4xl font-black text-gray-200 lg:text-5xl">
 				ZOBACZ RÓŻNICĘ
 			</h2>
-
+			<BeforeAndAfter />
 			<a
 				class="md-4 mt-4 inline-block rounded border border-gold bg-gold px-32 py-3 text-2xl font-medium text-black hover:bg-transparent hover:text-white focus:outline-none focus:ring active:text-indigo-500"
 				href="/download">
 				Rezerwuję Sesję
 			</a>
+
+			<p class="btn-primary">tatos jest super</p>
 		</div>
 	</div>
 </template>
+
+<script setup>
+	import { BeforeAndAfter } from "../components";
+</script>

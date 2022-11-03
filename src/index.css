@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+	.section-header {
+		@apply container mx-auto p-10 text-4xl font-black text-gold lg:text-6xl;
+	}
+}
