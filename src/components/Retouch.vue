@@ -49,8 +49,6 @@
 				href="/download">
 				Rezerwuję Sesję
 			</a>
-
-			<p class="btn-primary">tatos jest super</p>
 		</div>
 	</div>
 </template>
