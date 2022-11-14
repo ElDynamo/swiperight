@@ -19,7 +19,7 @@
 						Rezerwuję Sesję
 					</button>
 					<p class="align bottom mt-6 mb-2">
-						Dołącz do ponad 120+ zadowolonych klientów:ASasAD
+						Dołącz do ponad 120+ zadowolonych klientów:
 					</p>
 					<img
 						src="../../resources/zadowoleni-klienci.png"
