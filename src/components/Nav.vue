@@ -1,8 +1,8 @@
 <template>
-	<div class="Nav flex container ml-4 mb-0">
+	<div class="Nav container m-4 mb-0 flex">
 		<img
 			:src="logo"
-			class="justify-start w-32" />
+			class="mx-auto w-32 lg:justify-start" />
 	</div>
 </template>
 

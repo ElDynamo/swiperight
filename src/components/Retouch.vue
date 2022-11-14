@@ -1,30 +1,30 @@
 <template>
 	<div>
-		<div class="sm:px-6 mx-auto max-w-screen-xl px-4 py-16 lg:px-8">
+		<div class="sm:px-4 mx-auto max-w-screen-xl px-4 py-16 lg:px-8">
 			<div class="flex flex-col">
 				<h2 class="section-header">PROFESJONALNY RETUSZ</h2>
 
-				<p class="mx-auto px-48 text-lg">
+				<p class="mx-auto text-lg lg:px-48">
 					Po sesji wspólnie wybierzemy 9 najlepszych zdjęć
 				</p>
 			</div>
 
-			<div class="md:grid-cols-2 mt-8 grid grid-cols-1 gap-8 lg:grid-cols-2">
+			<div class="mt-8 grid grid-cols-1 gap-8 lg:grid-cols-2">
 				<div
-					class="flex flex-col rounded-xl border border-gray-800 p-8 shadow-xl transition"
+					class="m-12 flex flex-col rounded-xl border border-gray-800 p-8 shadow-xl transition"
 					href="/services/digital-campaigns">
 					<img src="../../resources/photoshop.png" />
-					<h2 class="mt-4 text-xl font-bold text-white">
+					<h2 class="mb-0 mt-4 pb-0 text-lg text-white lg:text-xl lg:font-bold">
 						Każde wybrane zdjęcie zostanie poddane 15 stopniowej obróbce i
 						retuszowi wg. autorskiej metody
 					</h2>
 				</div>
 
 				<div
-					class="flex flex-col rounded-xl border border-gray-800 p-8 shadow-xl transition"
+					class="m-12 flex flex-col rounded-xl border border-gray-800 p-8 shadow-xl transition"
 					href="/services/digital-campaigns">
 					<img src="../../resources/peoples.png" />
-					<h2 class="mt-4 text-xl font-bold text-white">
+					<h2 class="mb-0 mt-4 pb-0 text-lg text-white lg:text-xl lg:font-bold">
 						Metoda ta powstawała i była nieustannie ulepszana przez ostatnie 4
 						lata podczas pracy z ponad 100+ klientami
 					</h2>

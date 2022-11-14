@@ -8,8 +8,8 @@
 </script>
 
 <template>
-	<h1 class="">GALERIA ZDJĘĆ</h1>
-	<div class="gallery grid grid-cols-6 gap-2 py-20">
+	<h1 class="section-header">GALERIA ZDJĘĆ</h1>
+	<div class="gallery grid grid-cols-4 gap-2 py-10 px-2 lg:grid-cols-6">
 		<a href="../../resources/hobby-1.jpg">
 			<img
 				src="../../resources/hobby-1.jpg"

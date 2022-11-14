@@ -1,5 +1,7 @@
 <template>
-	<div class="m-0 flex w-full flex-col items-stretch justify-start">
+	<div
+		id="footer"
+		class="m-0 flex w-full max-w-full flex-col items-stretch justify-start">
 		<footer
 			aria-label="Site Footer"
 			class="bg-gray-900">

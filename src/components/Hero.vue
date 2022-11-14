@@ -1,6 +1,6 @@
 <template>
 	<div>
-		<section class="space-between flex bg-inherit text-left">
+		<section class="space-between flex text-left">
 			<div
 				class="mx-auto grid max-w-screen-xl px-4 py-8 lg:grid-cols-12 lg:gap-8 lg:py-16 xl:gap-0">
 				<div class="mr-auto place-self-center lg:col-span-7">

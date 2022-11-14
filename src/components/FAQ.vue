@@ -1,6 +1,6 @@
 <template>
 	<div>
-		<div class="max-w-4xl space-y-4">
+		<div class="mx-auto max-w-3xl space-y-4 px-4 pb-8 text-left lg:pb-24">
 			<details
 				class="group"
 				open>

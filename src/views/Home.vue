@@ -1,5 +1,7 @@
 <template>
-	<div class="flex h-screen flex-col justify-between">
+	<div
+		id="home"
+		class="flex h-screen flex-col justify-between">
 		<Nav />
 		<Hero />
 		<PromoVideo />
@@ -14,7 +16,6 @@
 		<UpcomingPhotoshoots />
 		<ContactForm />
 		<FAQ />
-		<Footer />
 	</div>
 </template>
 
@@ -32,6 +33,5 @@
 		UpcomingPhotoshoots,
 		ContactForm,
 		FAQ,
-		Footer,
 	} from "../components";
 </script>

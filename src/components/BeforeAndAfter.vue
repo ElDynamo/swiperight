@@ -1,6 +1,6 @@
 <template>
-	<div class="space-between grid grid-cols-2 gap-x-3 p-10">
-		<ImgComparisonSlider class="rounded-xl shadow-2xl">
+	<div class="space-between grid grid-cols-1 gap-x-3 p-4 lg:grid-cols-2">
+		<ImgComparisonSlider class="mb-8 rounded-xl shadow-2xl lg:mb-auto">
 			<!-- eslint-disable -->
 			<img
 				slot="first"

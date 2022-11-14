@@ -1,13 +1,13 @@
 <template>
-	<div class="container m-20 mx-auto text-left">
+	<div class="container my-20 mx-auto max-w-3xl px-4 text-left">
 		<div class="text-center">
 			<h1 class="section-header">ZAPISZ SIĘ NA SESJĘ</h1>
-			<p class="container mx-auto p-6">
+			<p class="container mx-auto p-4">
 				Ilość miejsc na sesjach jest ograniczona. W przypadku większej ilości
 				chętnych niż jest miejsc, pierwszeństwo mają osoby, które zgłosiły się
 				najwcześniej.
 			</p>
-			<p class="mx-auto p-6">
+			<p class="mx-auto pb-4">
 				Wypełnij formularz kontaktowy a ja odezwę się do Ciebie w ciągu 48h.
 			</p>
 		</div>
@@ -36,12 +36,6 @@
 					placeholder="adres e-mail" />
 			</div>
 			<div class="mb-4 w-full px-2">
-				<label
-					class="mb-1 block text-sm"
-					for="select-item"
-					>Data sesji na którą chcesz się zapisać:</label
-				>
-
 				<div class="relative">
 					<select
 						class="focus:shadow-outline w-full appearance-none rounded border px-4 py-2 pr-8 outline-none focus:border-blue-500"
@@ -66,12 +60,6 @@
 			</div>
 
 			<div class="mb-4 w-full px-2">
-				<label
-					class="mb-1 block text-sm"
-					for="textarea1"
-					>Twoja wiadomość</label
-				>
-
 				<textarea
 					id="textarea1"
 					class="focus:shadow-outline w-full rounded border px-4 py-2 outline-none focus:border-blue-500"
