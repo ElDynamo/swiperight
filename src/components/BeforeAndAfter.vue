@@ -1,5 +1,5 @@
 <template>
-	<div class="space-between grid grid-cols-1 gap-x-3 p-4 lg:grid-cols-2">
+	<div class="space-between grid grid-cols-1 gap-x-3 lg:p-4 lg:grid-cols-2">
 		<ImgComparisonSlider class="mb-8 rounded-xl shadow-2xl lg:mb-auto">
 			<!-- eslint-disable -->
 			<img

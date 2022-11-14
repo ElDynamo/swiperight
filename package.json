@@ -4,6 +4,7 @@
 	"version": "0.0.0",
 	"type": "module",
 	"scripts": {
+		"preinstall": "npx only-allow pnpm",
 		"dev": "vite",
 		"build": "vite build",
 		"preview": "vite preview"
@@ -11,7 +12,9 @@
 	"dependencies": {
 		"@img-comparison-slider/vue": "^7.7.0",
 		"baguettebox.js": "^1.11.1",
-		"vue": "^3.2.41"
+		"prettier": "^2.7.1",
+		"vue": "^3.2.41",
+		"vue-lazyload": "3.0.0-rc.2"
 	},
 	"devDependencies": {
 		"@vitejs/plugin-vue": "^3.2.0",

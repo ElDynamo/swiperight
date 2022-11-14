@@ -1,5 +1,7 @@
 <template>
-	<div class="container my-20 mx-auto max-w-3xl px-4 text-left">
+	<div
+		href="#contact-form"
+		class="container m-4 mx-auto max-w-3xl py-10 text-left lg:my-20 lg:px-4">
 		<div class="text-center">
 			<h1 class="section-header">ZAPISZ SIĘ NA SESJĘ</h1>
 			<p class="container mx-auto p-4">
